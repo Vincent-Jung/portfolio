@@ -8,3 +8,49 @@ body {
   background-color: #ecf0ff;
 }
 
+.fixed-button {
+  position: fixed;
+  top: 90%;
+  right: 20px;
+  background-color: #FFA723; 
+  color: #2E2E9F;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 50%; 
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.vertical-navbar {
+  position: fixed;
+  right: -200px; 
+  top: 40%;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #B4C4FF; 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: right 0.3s ease; 
+  z-index: 999; 
+}
+
+.vertical-navbar .navbar-item {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #FFA723;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.vertical-navbar .navbar-item:hover {
+  background-color: #fdd08d; 
+}
+
+.vertical-navbar.open {
+  right: 0; 
+}
