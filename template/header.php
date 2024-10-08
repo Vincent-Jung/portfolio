@@ -1,6 +1,7 @@
 <header>
   <div class="section">
     <div class="box">
+    <img class="is-pulled-right" title="Yeah, I know..." src="assets/images/wip.png" alt="Un panneau avec le message 'Work in progress' indique que le site est toujours en construction et n'est donc pas achevé."/>
       <div class="block">
         <section class="hero">
           <div class="hero-body">
@@ -9,6 +10,7 @@
           </div>  
         </section>
       </div>
+
         <nav class="navbar" role="navigation" aria-label="main navigation">
           <div class="navbar-brand is-pulled-left">
 

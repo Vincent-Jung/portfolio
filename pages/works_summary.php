@@ -23,7 +23,6 @@ if (!empty($works)) {
         echo "<h3 class=\"title is-3\">{$work['title']}</h3>";
         // TODO: insert main subtitle. Add data in array
         echo "<small>Date : " . date('d-m-Y', strtotime($work['date'])) . "</small><br>";
-        echo "<p>{$work['description']}</p>";
         echo "<a href=\"index.php?loc=work&id={$key}\">Voir en détail</a>";
         echo "</li>";
         echo "</div>";

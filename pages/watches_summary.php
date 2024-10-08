@@ -22,7 +22,6 @@ if (!empty($watches)) {
         echo "<li>";
         echo "<h3 class=\"title is-3\">{$watch['title']}</h3>";
         echo "<small>Date : " . date('d-m-Y', strtotime($watch['date'])) . "</small><br>";
-        echo "<p>{$watch['description']}</p>";
         echo "<a href=\"index.php?loc=watch&id={$key}\">Voir en détail</a>";
         echo "</li>";
         echo "</div>";
