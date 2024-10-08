@@ -54,3 +54,23 @@ body {
 .vertical-navbar.open {
   right: 0; 
 }
+
+.compass {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #ECF0FF;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.compass-item {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.compass-item:hover {
+  background-color: #7c94ec;
+}
