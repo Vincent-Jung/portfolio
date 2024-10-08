@@ -3,23 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+        <link rel="stylesheet" href="assets/styles.css" />
         <title>Portefolio</title> 
         <!-- TODO: utiliser $loc pour afficher le titre en dynamique -->
         <!-- TODO: add icon -->
-        <link rel="stylesheet" href="assets/style.css" />
     </head>
 
     <body>
         
     <?php 
+        $loc = filter_input(INPUT_GET, "loc");
+        $GLOBALS['loc'] = $loc;
+        $id = filter_input(INPUT_GET, "id", FILTER_VALIDATE_INT);
+
+        // echo "(Your input: $loc)";
+
         include 'template/header.php';
         include 'template/compass.php';
 
-        $loc = filter_input(INPUT_GET, "loc");
-        $id = filter_input(INPUT_GET, "id", FILTER_VALIDATE_INT);
 
-        echo "(Your input: $loc)";
 
         // TODO: create a Router class
         switch ($loc) {
