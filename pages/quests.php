@@ -13,17 +13,18 @@
         <h2 class="title is-2">Quêtes</h2>
 
         <div class="block">
-            <p>Le terme de quête remplace petit) petit des mots comme "objectifs" ou "goals".<br>
-            C'est n'est pas un point à atteindre, mais plutôt une ligne qui nous guide dans une direction.
+            <p>Le terme de quête remplace petit à petit des mots comme "objectifs" ou "goals".<br>
+            Ce n'est pas un point à atteindre, mais plutôt une ligne qui nous guide dans une direction.<br>
+            Les miennes sont les suivantes :
             </p>
         </div>
 
         <div class="block">
             <ul>
-                <li>Dev informatique</li>
-                <li>Seonmudo</li>
-                <li>Coréen</li>
-                <li>Creativité</li>
+                <li>Le développement informatique</li>
+                <li>La pratique du seonmudo</li>
+                <li>La maitrise de la langue Coréene</li>
+                <li>La creativité</li>
             </ul>
         </div>
 
