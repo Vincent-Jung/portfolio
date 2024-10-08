@@ -1,6 +1,6 @@
-<h2>Error 404</h2>
+<h2 class="title is-2">Error 404</h2>
 
-<p>L'erreur 404 dans les 30 langues principales du monde.</p>
+<h3 class="subtitle is-3">L'erreur 404 dans les 30 langues principales du monde.</h3>
 
 
 <p>Anglais : Page not found.</p>

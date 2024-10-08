@@ -1,0 +1,9 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+body {
+  background-color: #b4c4ff;
+}
+
+.box, nav {
+  background-color: #ecf0ff;
+}
